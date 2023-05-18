@@ -20,7 +20,7 @@ function counting() {
 
 
 if (answerCurrensy == true) {
-    finalCurrensy.currensy = prompt('Введите свой курс. Например, если 1 рубль равен 175 рупиям, то вы введете: 175');
+    finalCurrensy.currensy = prompt('Введи свой курс. Например, если 1 рубль равен 175 рупиям, то ты введешь: 175');
     counting();
 }
 else {
