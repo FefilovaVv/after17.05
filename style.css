@@ -1,0 +1,22 @@
+.gift-flex {display: flex;
+align-items: center;
+flex-direction: column;}
+p{font-size: 2rem;}
+
+/* p:hover {
+    transform: translateY(13px);
+  
+} */
+
+
+.gift-with{
+    /* паддинги чтобы мышка активировала действия легче - блоше площадь активации. можно ли это задать как-то по другому?*/
+    padding: 30px;
+    transform-origin: center center; 
+    transition: transform 3s cubic-bezier(0.32, 0, 0.67, 0);}
+    
+.gift-with:hover{
+    transform: rotate(3600deg)  translateY(30px);
+ 
+    color: purple;
+}
