@@ -10,3 +10,4 @@ else if (mood.length>1) { console.log(`Введи одну букву!`); }
 else if (mood<'a' || mood<'а') { console.log(`Введи строчную букву!`); }
 else  { console.log(`Фиг знает, что ты сейчас сделал, но ат-а-та тебе`); }
 console.log(typeof mood);
+ 
